@@ -1,5 +1,5 @@
-# discontiguous-multiwords coding challenge
-GSoC '17 coding challenge - Discontiguous Multiwords
+# Discontiguous Multiwords - Coding Challenge
+**GSoC '17 coding challenge - Discontiguous Multiwords - Irene Tang**
 (http://wiki.apertium.org/wiki/Ideas_for_Google_Summer_of_Code/Discontiguous_multiwords)
 
 1. Install a language pair where one of the languages has discontiguous multiwords.
@@ -10,26 +10,26 @@ GSoC '17 coding challenge - Discontiguous Multiwords
 ========================
 **Usage**
 --------------------
-python ./parser.py [file] [function] [target]
+`python ./parser.py [file] [function] [target]` <br />
 Takes an input file, a function to execute, and a target to parse for
 - file: text should be tagged according to `apertium-tagger -p -g`
 - function: wordCount, lemmaCount, tagCount, wordsWithTag, lemmasWithTag
 - target: a tag or a word
 
 **examples:**
-python ./parser file.txt wordCount dogs
-python ./parser file.txt lemmaCount dog
-python ./parser file.txt tagCount n
-python ./parser file.txt wordsWithTag adj
-python ./parser file.txt lemmasWithTag vbmod
+`python ./parser file.txt wordCount dogs` <br />
+`python ./parser file.txt lemmaCount dog` <br />
+`python ./parser file.txt tagCount n` <br />
+`python ./parser file.txt wordsWithTag adj` <br />
+`python ./parser file.txt lemmasWithTag vbmod` <br />
 
 **Available Functions**
 --------------------
-**wordCount:** prints how many times the word appears in the file
-**lemmaCount:** prints how many times the lemma appears in the file
-**tagCount:** prints how many words in the file contain the tag
-**wordsWithTag**: prints a list of all the words that contain the tag, in alphabetical order
-**lemmasWithTag**: prints a list of all the lemmas that contain the tag, in alphabetical order
+- **wordCount:** prints how many times the word appears in the file
+- **lemmaCount:** prints how many times the lemma appears in the file
+- **tagCount:** prints how many words in the file contain the tag
+- **wordsWithTag**: prints a list of all the words that contain the tag, in alphabetical order
+- **lemmasWithTag**: prints a list of all the lemmas that contain the tag, in alphabetical order
 
 **Characters**
 --------------------
@@ -38,7 +38,8 @@ python ./parser file.txt lemmasWithTag vbmod
 - '/' -- delimites analyses in ambiguous lexical units
 - '<>' -- encapsulates tags
 - '{}' -- delimites chunks
-- '\' -- escape character
+- '\\' -- escape character
+  
 **Special:**
 - '\*' -- Unanalyzed word.
 - '@' -- Untranslated lemma.
