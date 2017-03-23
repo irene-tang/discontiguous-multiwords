@@ -21,7 +21,7 @@ def strip(text):
             inSuperblank = False
         elif c == '[':
             inSuperblank = True
-        else:
+        elif not inSuperblank:
             strippedText += c            
     return strippedText
 
