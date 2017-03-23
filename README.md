@@ -9,16 +9,14 @@
 
 **In this repository:**
 
-**superblankParser.py**: a stream processor that parses character by character (challenge #2)
-
-**parser.py:** a stream processor that does more stuff than superblankParser (challenge #2.5)
-
-**sample_texts:** sample texts for ./superblankParser.py and ./parser.py
+- **superblankParser.py**: a stream processor that parses character by character (challenge #2)
+- **parser.py:** a stream processor that does more stuff than superblankParser (challenge #2.5)
+- **sample_texts:** sample texts for ./superblankParser.py and ./parser.py
 
 **superblankParser.py**
 ========================
 `python ./superblankParser.py [file]` <br />
-Takes an input file, counts the number of superblanks contained in the file
+Takes an input file, prints the text in the file stripped of superblanks
 
 
 **parser.py**
@@ -32,6 +30,7 @@ Takes an input file, a function to execute, and a target to parse for
 - target: a tag, a word, or 0 depending on the function
 
 **examples:**
+
 `python ./parser file.txt wordCount dogs` <br />
 `python ./parser file.txt lemmaCount dog` <br />
 `python ./parser file.txt tagCount n` <br />
