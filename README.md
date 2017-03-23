@@ -11,7 +11,7 @@
 
 - **superblankParser.py**: a stream processor that parses character by character (challenge #2)
 - **parser.py:** a stream processor that does more stuff than superblankParser (challenge #2.5)
-- **sample_texts:** sample texts for ./superblankParser.py and ./parser.py
+- **sample_texts:** some sample texts for ./parser.py
 
 **superblankParser.py**
 ========================
