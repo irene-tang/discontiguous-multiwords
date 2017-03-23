@@ -6,6 +6,14 @@
 2. Write a stream processor for the output of `apertium-tagger -p -g` that parses character by character, respecting superblanks.
 3. From a corpus, extract a test set of different sentences with discontiguous multiwords in it
 
+
+**In this repository:**
+
+**parser.py:** the stream processor (challenge #2)
+**extractor.py:** the sentence extractor (challenge #3)
+**tree-diagrams.pdf:** some tree diagrams and syntax rules for sentences containing discontiguous multiwords
+**sample:** sample texts for ./parser.py and ./extractor.py
+
 **Stream Processor**
 ========================
 **Usage**
