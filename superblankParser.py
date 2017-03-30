@@ -16,10 +16,14 @@ def main():
 def strip(text):
     strippedText = ''
     inSuperblank = False
-    for c in text:
-        if inSuperblank and c == ']':
+    for i, c in enumerate(text):
+        if i == 0:
+            prev = ''
+        else:
+            prev = text[i-1]
+        if inSuperblank and c == ']' and prev != '\\':
             inSuperblank = False
-        elif c == '[':
+        elif c == '[' and prev != '\\':
             inSuperblank = True
         elif not inSuperblank:
             strippedText += c            
