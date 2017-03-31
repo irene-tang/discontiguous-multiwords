@@ -21,7 +21,6 @@ def main():
     sentences = [sentence.strip() for sentence in sentences]
     #extract a list of sentences that contain discontiguous multiwords
     foundSentences = findDiscontiguous(sentences)
-    print foundSentences #################
     #write the sentences to the output file
     outputFile = open(outputFileName, 'w')
     for sentence in foundSentences:
