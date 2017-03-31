@@ -63,6 +63,7 @@ Takes an input file, writes sentences containing discontiguous multiwords into a
 Does not work well with documents including quotations.
 
 **extractor_output.txt**
-A sample document containing sentences with discontinuous multiwords. Created with `extractor.py` and manually marked to distinguish real discontinuous multiwords from non-real discontinuous multiwords. <br />
+A sample document containing sentences with discontinuous multiwords. Created with `extractor.py` for `sample_texts/random_sentences.txt`. Manually marked to distinguish real discontinuous multiwords from non-real discontinuous multiwords. <br />
+
 
 Contains those sentences from the output file of `sample_text/random_sentences.txt` that are found to contain discontiguous multiwords. The sentences are manually marked to distinguish between real discontiguous multiwords and non-real discontiguous multiwords. Real discontiguous multiwords are marked with `*` and non-real discontiguous multiwords are marked with `< >`.
