@@ -13,6 +13,7 @@
 - **parser.py:** a stream processor that does more stuff than superblankParser (challenge #2.5)
 - **extractor.py:** a script that extracts sentences with discontiguous multiwords (challenge #3)
 - **extractor_output.txt:** a sample document containing sentences with discontinuous multiwords, created by running extractor.py and manually marked to distinguish between real discontinuous multiwords from non-real discontinuous multiwords (challenge #3)
+- **dictionary.txt:** dictionary of discontiguous multiwords, imported by extractor.py
 - **sample_texts:** a folder containing some sample texts
 
 
@@ -62,8 +63,8 @@ Takes an input file, a function to execute, and a target to parse for. <br />
 Takes an input file, writes sentences containing discontiguous multiwords into an output file. <br />
 Does not work well with documents including quotations.
 
-**extractor_output.txt**
+**extractor_output.txt**:  <br />
 A sample document containing sentences with discontinuous multiwords. Created with `extractor.py` for `sample_texts/random_sentences.txt`. Manually marked to distinguish real discontinuous multiwords from non-real discontinuous multiwords. <br />
 
 
-Contains those sentences from the output file of `sample_text/random_sentences.txt` that are found to contain discontiguous multiwords. The sentences are manually marked to distinguish between real discontiguous multiwords and non-real discontiguous multiwords. Real discontiguous multiwords are marked with `*` and non-real discontiguous multiwords are marked with `< >`.
+Contains those sentences from the output file of running `extractor.py` with `sample_text/random_sentences.txt` that are found to contain discontiguous multiwords. The sentences are manually marked to distinguish between real discontiguous multiwords and non-real discontiguous multiwords. Real discontiguous multiwords are marked with `*` and non-real discontiguous multiwords are marked with `< >`.
