@@ -13,7 +13,7 @@
 - **parser.py:** a stream processor that does more stuff than superblankParser (challenge #2.5)
 - **extractor.py:** a script that extracts sentences with discontiguous multiwords (challenge #3)
 - **extractor_output.txt:** a sample document containing sentences with discontinuous multiwords, created by running extractor.py and manually marked to distinguish between real discontinuous multiwords from non-real discontinuous multiwords (challenge #3)
-- **dictionary.txt:** dictionary of discontiguous multiwords, imported by extractor.py
+- **dictionary.py:** dictionary of discontiguous multiwords, imported by extractor.py
 - **sample_texts:** a folder containing some sample texts
 
 
