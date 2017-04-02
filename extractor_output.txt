@@ -1,10 +1,23 @@
-Ginger will frequently bring some friends back to the house
-Every week, Margaret sets two hours aside to tend to her garden
-Elise is keeping the surprise a secret
-Nathan told me to take my shoes off before entering the room
-Philip's mom washed the mustard stain away
-Isabel has succesfully looked over the assignment
-Bob had James over last week to play
-Sally was thinking as she hiked over the hills
-Darcy passes the homework out at the end of the day
-Martin has a friend over in Seattle
+Ginger will frequently *bring some friends back* to the house
+Every week, Margaret *sets two hours aside* to tend to her garden
+Elise is <keeping the surprise a secret>
+Nathan told me to *take my shoes off* before entering the room
+Philip's mom *washed the mustard stain away*
+Isabel <has succesfully looked over> the assignment
+Bob *had James over* last week to play
+Sally was <thinking as she hiked over> the hills
+Darcy *passes the homework out* at the end of the day
+Martin <has a friend over> in Seattle
+
+
+Explanation:
+1. bring back
+2. sets aside
+3. <keep secret> - 'secret' as in 'a secret', not as in 'keep secret'
+4. take off
+5. wash away
+6. <has over> - 'over' as in 'look over', not as in 'have over'
+7. have over
+8. <think over> - 'over' as in 'over the hills', not as in 'think over'
+9. pass out
+10. has over
